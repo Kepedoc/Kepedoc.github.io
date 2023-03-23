@@ -16,6 +16,18 @@ body{
 #p2{
 	padding-top: 25vh;
 }
+#aboutme{
+	position: absolute;
+	font-size: 6vh;
+	bottom: 1vh;
+	left: 44vw;
+}
+#back{
+	position: fixed;
+	bottom: 1vh;
+	right: 1vw;
+	font-size: 5vh;
+}
 .a{
 	position: absolute;
 	width: 100vw;
