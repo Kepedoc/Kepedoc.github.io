@@ -151,5 +151,6 @@ a:active{
 	font-size: 35vh;
 	color: #000;
 	flex-direction: row;
+	min-width: 77vw;
 	max-width: 90vw;
 }
