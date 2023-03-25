@@ -7,6 +7,9 @@ body{
 	background-color: #381552;
 	overflow: hidden;
 }
+a{
+	font-size: 4vw;
+}
 .page{
 	padding: 1vh;
 	height: 100vh;
@@ -28,11 +31,6 @@ body{
 	right: 1vw;
 	font-size: 5vh;
 }
-.a{
-	position: absolute;
-	width: 100vw;
-	height: 100vh;
-}
 .img{	
 	position: absolute;
 	top: 50%;
@@ -40,7 +38,10 @@ body{
 	transform: translate(-50%, -50%);
 }
 .heaven{
-	word-break: break-word;
+	font-size: 15vw;
+}
+.Info{
+	font-size: 2.5vw;
 }
 .slider{
 	width: 101%;
@@ -87,7 +88,6 @@ h2{
 }
 .navbar {
     padding: -5vh;
-    font-size: 5vh;
     position:fixed;
     top: -9vh;
     left: 0vw;
@@ -103,7 +103,6 @@ h2{
     top:0vw;
 }
 .nav{
-    font-size: 5vh;
     left: 0vw;
     height: 12vh;
     width: 100vw;
@@ -151,6 +150,5 @@ a:active{
 	font-size: 35vh;
 	color: #000;
 	flex-direction: row;
-	min-width: 77vw;
-	max-width: 90vw;
+	max-width: 99vw;
 }
